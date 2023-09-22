@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoldStar Auto</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <!-- <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+      </a> -->
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <!-- <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+        </a> -->
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="shop.html" class="navbar-link">Shop</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+   
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819580568444!2d36.82852917413238!3d-1.2820244356197203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f112c6fd35ff9%3A0xedda534201f0215!2sYellow%20House!5e0!3m2!1sen!2ske!4v1695384996749!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <!-- <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+          </a> -->
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100037466907049" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                Yellow House, 2nd Floor, Shop 2007. Kirinyaga Rd, Nairobi, Kenya
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+557343673257" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">0794 259 722</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:goldstarautosolution@gmail.com" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">goldstarautosolution@gmail.com</span>
+              </a>
+            </li>
+
+          </ul>
+          <div class="footer-list">
+
+            <p class="footer-list-title">Opening Time</p>
+
+            <table class="footer-table">
+              <tbody>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Mon - Fri:</th>
+
+                  <td class="table-data">7AM - 6PM</td>
+                </tr>
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Sat:</th>
+
+                  <td class="table-data">7AM - 12PM</td>
+                </tr>
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Sun:</th>
+
+                  <td class="table-data">Closed</td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="newsletter-text">
+              sign up to receive newsletters on our latest products and offers!
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#" class="copyright-link">goldstarautosolution</a>. All Rights Reserved
+        </p>
+          <p class="copyright">
+          <a href="https://eyern.dev/" class="copyright-link">Developed by eyern</a>. 
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top-btn" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script
+    src="https://sleekflow.io/whatsapp-button.js"
+    async
+    onLoad="whatsappButton({
+    buttonName:'Message Us',
+    buttonIconSize: '22',
+    brandImageUrl:'https://sleekflow.io/static/images/sleekflow-icon.png',
+    buttonMargin:'true',
+    brandName:'GoldStar Auto',
+    brandSubtitleText:'Typically replies within minutes',
+    buttonSize:'regular',
+    callToAction:'Start Chat',
+    phoneNumber:'254794259722',
+    welcomeMessage:'Hi there 👋',
+    })"
+    >
+</script>
+
+</body>
+
+</html>
